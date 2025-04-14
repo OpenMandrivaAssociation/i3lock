@@ -1,7 +1,7 @@
 %define debug_package %{nil}
 Name:		i3lock
 Version:	2.15
-Release:	1
+Release:	2
 Source0:	https://github.com/i3/i3lock/archive/refs/tags/%{version}.tar.gz
 Summary:	improved screen locker
 URL:		https://github.com/i3/i3lock
@@ -19,6 +19,10 @@ BuildRequires:	pkgconfig(xkbcommon-x11)
 BuildRequires:	pkgconfig(cairo)
 BuildRequires:  libev-devel
 BuildRequires:  pam-devel
+
+Recommends: imagemagick
+
+Conflicts: i3lock-color
 
 %description
 i3lock is a simple screen locker like slock.

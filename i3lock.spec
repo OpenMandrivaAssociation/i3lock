@@ -1,7 +1,7 @@
 %define debug_package %{nil}
 Name:		i3lock
-Version:	2.15
-Release:	2
+Version:	2.16
+Release:	1
 Source0:	https://github.com/i3/i3lock/archive/refs/tags/%{version}.tar.gz
 Summary:	improved screen locker
 URL:		https://github.com/i3/i3lock
